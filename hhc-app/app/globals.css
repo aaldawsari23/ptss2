@@ -1,0 +1,22 @@
+/* app/globals.css */
+/* Global styles applied to the entire application. Tailwind's preflight
+   styles will reset most elements, but you can include your own overrides
+   or utility classes here. */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Provide a basic smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent horizontal scroll caused by Drawer */
+body {
+  overflow-x: hidden;
+}
